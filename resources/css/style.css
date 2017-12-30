@@ -5,6 +5,7 @@ header{
   font-weight: bold;
   border-bottom: 1px solid;
   justify-content: space-between;
+  padding-bottom: 10px;
   }
 
 header p{
@@ -16,7 +17,7 @@ nav{
   width: 250px;
   display: inline-flex;
   justify-content: space-between;
-  
+
   align-items: center;
   }
 
@@ -27,4 +28,35 @@ nav{
   justify-content: space-around;
   width: 150px;
   margin-left: 20px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 1270px;
+  margin-left: 280px;
+  margin-right: 280px;
+  padding-top: 20px;
+}
+
+.large{
+  width: 630px;
+  border: 1px solid black;
+}
+
+.medium{
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small{
+  width: 240px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.large p{
+  border: 1px solid black;
+  margin-top: 0px;
 }
